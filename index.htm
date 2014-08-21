@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="icon" href="/favicon.ico" type="image/x-icon"/>
+<title> machine </title>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/spig.js"></script>
+<script type="text/javascript" src="js/music.js"></script>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":["tsina","weixin","renren","tieba","douban","ff","mail","ty","fbook","twi","linkedin","copy"],"bdPic":"","bdStyle":"0","bdSize":"16"},"slide":{"type":"slide","bdImg":"3","bdPos":"right","bdTop":"179.5"}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+<link rel="stylesheet" href="css/spigPet.css" type="text/css"/>
+
+<script type="text/javascript">
+var isindex = true;
+var visitor = true;
+</script>
+
+
+</head>
+<body>
+
+
+<div class="machine">
+
+   <div class="header">
+        <h1>黑夜将至</h1>
+        <a href="">首页</a>
+        <a href="/slides">画册</a>
+<a href="/huojian">火箭</a>
+<a href="/caidan">弹出菜单</a>
+<a href="/404">404页面</a>
+   </div>
+
+<!-- 显示时间 start -->
+<DIV id=shijian></DIV>
+<SCRIPT>setInterval("shijian.innerHTML=new Date().toLocaleString()+' 星期'+'日一二三四五六'.charAt(new Date().getDay());",1000);</SCRIPT>
+<DIV class=yinyue>
+<audio src="/The Sound Of Silence.mp3" controls="controls">
+Your browser does not support the audio element.
+</audio>
+</DIV>
+
+<!-- 显示图片 start -->
+<div id="album">
+<div class="frame"><img src="http://res.paomianba.com/img/fe/21.1.jpg" height="180px"/></div>
+
+<div class="frame"><img src="http://res.paomianba.com/img/fe/21.3.jpg" height="180px"/></div>
+
+</div>
+
+<!-- 多说评论框 start -->
+    <div class="ds-thread" data-thread-key="1" data-title="index" data-url="http://lianxiben.net/"></div>
+<!-- 多说评论框 end -->
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"machine"};
+    (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + 'JS/duoshuo.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0] 
+         || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+    </script>
+<!-- 多说公共JS代码 end -->
+</div>
+
+<!-- <div style=" margin:100px auto; width:990px; height:500px;"></div> -->
+
+<!--小人只在首页显示 start*-->
+    <div id="spig" class="spig">
+    <div id="message">正在加载中……</div>
+    <div id="mumu" class="mumu"></div>
+</div>
+<!--小人end*-->
+
+
+<!--百度统计end*-->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F68df0c16b75b807cd3008fb9ff9a5a79' type='text/javascript'%3E%3C/script%3E"));
+</script> 
+</body>
+</html>
